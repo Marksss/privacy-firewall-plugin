@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    tools:context="com.marksss.plugin.demo.MainActivity">
+
+    <Button
+        android:id="@+id/btn_serial"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:paddingStart="30dp"
+        android:paddingEnd="30dp"
+        android:text="onClick-serial" />
+
+    <Button
+        android:id="@+id/btnDeviceId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:paddingStart="30dp"
+        android:paddingEnd="30dp"
+        android:text="onClick-deviceId" />
+
+    <Button
+        android:id="@+id/btnSubscriberId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:paddingStart="30dp"
+        android:paddingEnd="30dp"
+        android:text="onClick-subscriberId" />
+
+    <Button
+        android:id="@+id/btnMeId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:paddingStart="30dp"
+        android:paddingEnd="30dp"
+        android:text="onClick-meid" />
+
+    <Button
+        android:id="@+id/btnHardwareAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:paddingStart="30dp"
+        android:paddingEnd="30dp"
+        android:text="onClick-HardwareAddress" />
+
+</LinearLayout>
